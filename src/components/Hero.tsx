@@ -1,10 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, Users, Handshake } from "lucide-react";
-
 export const Hero = () => {
-  return (
-    <section className="relative min-h-screen bg-gradient-to-br from-black via-gray-900 to-black flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen bg-gradient-to-br from-black via-gray-900 to-black flex items-center justify-center overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-yellow-400 rounded-full blur-3xl animate-pulse"></div>
@@ -14,11 +11,7 @@ export const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         {/* Logo */}
         <div className="mb-8 flex justify-center">
-          <img 
-            src="/lovable-uploads/1db229cc-6d39-4507-82e8-0fdc808e3837.png" 
-            alt="The Spaak Conference" 
-            className="h-32 md:h-48 animate-fade-in"
-          />
+          <img src="/lovable-uploads/1db229cc-6d39-4507-82e8-0fdc808e3837.png" alt="The Spaak Conference" className="h-32 md:h-48 animate-fade-in" />
         </div>
         
         {/* Main Headline */}
@@ -36,29 +29,18 @@ export const Hero = () => {
         
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">
-          <Button 
-            size="lg" 
-            className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-2xl"
-          >
+          <Button size="lg" className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-2xl">
             <Calendar className="mr-2 h-5 w-5" />
             Register Now
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
           
-          <Button 
-            size="lg" 
-            variant="outline" 
-            className="border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black font-bold px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105"
-          >
+          <Button size="lg" variant="outline" className="border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black font-bold px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105">
             <Users className="mr-2 h-5 w-5" />
             Become a Speaker
           </Button>
           
-          <Button 
-            size="lg" 
-            variant="outline" 
-            className="border-white text-white hover:bg-white hover:text-black font-bold px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105"
-          >
+          <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black font-bold px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105">
             <Handshake className="mr-2 h-5 w-5" />
             Partner With Us
           </Button>
@@ -66,11 +48,8 @@ export const Hero = () => {
         
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-yellow-400 rounded-full flex justify-center">
-            <div className="w-1 h-3 bg-yellow-400 rounded-full mt-2 animate-pulse"></div>
-          </div>
+          
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };

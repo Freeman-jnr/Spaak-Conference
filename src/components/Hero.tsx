@@ -1,5 +1,7 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, Users, Handshake } from "lucide-react";
+
 export const Hero = () => {
   return <section className="relative min-h-screen bg-gradient-to-br from-black via-gray-900 to-black flex items-center justify-center overflow-hidden">
       {/* Animated Background Elements */}
@@ -29,19 +31,19 @@ export const Hero = () => {
         
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">
-          <Button size="lg" className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-2xl">
-            <Calendar className="mr-2 h-5 w-5" />
+          <Button size="lg" className="bg-white hover:bg-yellow-400 text-black font-bold px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-2xl">
+            <Calendar className="mr-2 h-5 w-5 text-black" />
             Register Now
-            <ArrowRight className="ml-2 h-5 w-5" />
+            <ArrowRight className="ml-2 h-5 w-5 text-black" />
           </Button>
           
-          <Button size="lg" variant="outline" className="border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black font-bold px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105">
-            <Users className="mr-2 h-5 w-5" />
+          <Button size="lg" className="bg-white hover:bg-yellow-400 text-black font-bold px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-2xl">
+            <Users className="mr-2 h-5 w-5 text-black" />
             Become a Speaker
           </Button>
           
-          <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black font-bold px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105">
-            <Handshake className="mr-2 h-5 w-5" />
+          <Button size="lg" className="bg-white hover:bg-yellow-400 text-black font-bold px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-2xl">
+            <Handshake className="mr-2 h-5 w-5 text-black" />
             Partner With Us
           </Button>
         </div>

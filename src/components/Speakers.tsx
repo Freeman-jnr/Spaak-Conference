@@ -16,7 +16,7 @@ export const Speakers = () => {
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             At The Spaak Conference, we don't just speak — we <strong>Spaak</strong>. 
             Expect thought-provoking talks, controversial insights, and practical blueprints 
-            from speakers who challenge the status quo across industries.
+            from speakers and doers who challenge the status quo across industries.
           </p>
         </div>
         

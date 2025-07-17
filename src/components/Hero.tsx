@@ -13,7 +13,7 @@ export const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         {/* Logo */}
         <div className="mb-8 flex justify-center">
-          <img src="/lovable-uploads/1db229cc-6d39-4507-82e8-0fdc808e3837.png" alt="The Spaak Conference" className="h-32 md:h-48 animate-fade-in" />
+          <img src="/lovable-uploads/1db229cc-6d39-4507-82e8-0fdc808e3837.png" alt="The Spaak Conference" className="h-48 md:h-64 lg:h-72 animate-fade-in" />
         </div>
         
         {/* Main Headline */}

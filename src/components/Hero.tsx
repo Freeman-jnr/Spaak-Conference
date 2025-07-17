@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, Users, Handshake } from "lucide-react";
 
 export const Hero = () => {
-  return <section className="relative min-h-screen bg-gradient-to-br from-black via-gray-900 to-black flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 flex items-center justify-center overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-yellow-400 rounded-full blur-3xl animate-pulse"></div>
@@ -13,7 +13,7 @@ export const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         {/* Logo */}
         <div className="mb-8 flex justify-center">
-          <img src="/lovable-uploads/1db229cc-6d39-4507-82e8-0fdc808e3837.png" alt="The Spaak Conference" className="h-48 md:h-64 lg:h-72 animate-fade-in" />
+          <img src="/lovable-uploads/e5cbdde7-56ba-4821-bc22-e52b6cf8a77b.png" alt="The Spaak Conference" className="h-56 md:h-72 lg:h-80 animate-fade-in" />
         </div>
         
         {/* Main Headline */}

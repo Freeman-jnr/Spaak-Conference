@@ -11,8 +11,7 @@ export const About = () => {
           </h2>
           <p className="text-xl text-gray-700 leading-relaxed mb-8">
             The Spaak Conference is more than a gathering, it's a <strong>movement</strong> of 
-            bold minds committed to redefining what's possible. Unlike typical tech events, 
-            this is a conference similar to TEDx that brings together impact owners, entrepreneurs, 
+            bold minds committed to redefining what's possible. We bring together impact owners, entrepreneurs, 
             industry leaders, and solution-builders from diverse fields including solar energy, 
             carpentry, business innovation, and beyond. It's designed for people who have built 
             massive solutions across various sectors, focusing on sharing fresh ideas and creating awareness.

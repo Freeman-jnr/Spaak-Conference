@@ -3,24 +3,28 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, Users, Handshake } from "lucide-react";
 
 export const Hero = () => {
-  return <section className="relative min-h-screen bg-gradient-to-br from-gray-600 via-gray-500 to-gray-600 overflow-hidden">
-      {/* Animated Background Elements */}
-      <div className="absolute inset-0 opacity-20">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-yellow-400 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-48 h-48 bg-yellow-300 rounded-full blur-2xl animate-pulse delay-1000"></div>
+  return <section className="relative min-h-screen overflow-hidden">
+      {/* Hero Background Image */}
+      <div className="absolute inset-0">
+        <img 
+          src="/lovable-uploads/28644522-a1ec-4262-9dc3-3e5078155c0e.png" 
+          alt="Reinventing Human Possibility" 
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/40"></div>
       </div>
       
       {/* Logo in top-left corner */}
       <div className="absolute top-8 left-8 z-20">
-        <img src="/lovable-uploads/e5cbdde7-56ba-4821-bc22-e52b6cf8a77b.png" alt="The Spaak Conference" className="h-20 md:h-24 filter brightness-110 contrast-125 animate-fade-in" />
+        <img src="/lovable-uploads/e5cbdde7-56ba-4821-bc22-e52b6cf8a77b.png" alt="The Spaak Conference" className="h-20 md:h-24 filter brightness-110 contrast-125 animate-fade-in drop-shadow-lg" />
       </div>
       
-      <div className="relative z-10 container mx-auto px-4 text-center text-white flex items-center justify-center min-h-screen">
+      <div className="relative z-10 container mx-auto px-4 text-center text-white flex flex-col items-center justify-center min-h-screen">
         
         {/* Main Headline */}
-        <h1 className="text-4xl md:text-7xl font-bold mb-6 animate-fade-in">
+        <h1 className="text-4xl md:text-7xl font-bold mb-6 animate-fade-in drop-shadow-lg">
           Reinventing
-          <span className="block text-yellow-400 mt-2">Human Possibility</span>
+          <span className="block text-yellow-400 mt-2 drop-shadow-lg">Human Possibility</span>
         </h1>
         
         {/* Subheading */}

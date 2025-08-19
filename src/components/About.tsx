@@ -10,11 +10,15 @@ export const About = () => {
             About The Conference
           </h2>
           <p className="text-xl text-gray-700 leading-relaxed mb-8">
-            The Spaak Conference is more than a gathering — it's a <strong>movement</strong> of 
-            bold minds committed to redefining what's possible.
+            The Spaak Conference is more than a gathering, it's a <strong>movement</strong> of 
+            bold minds committed to redefining what's possible. Unlike typical tech events, 
+            this is a conference similar to TEDx that brings together impact owners, entrepreneurs, 
+            industry leaders, and solution-builders from diverse fields including solar energy, 
+            carpentry, business innovation, and beyond. It's designed for people who have built 
+            massive solutions across various sectors, focusing on sharing fresh ideas and creating awareness.
           </p>
           <div className="bg-yellow-400 text-black p-6 rounded-2xl font-bold text-xl mb-12">
-            Our goal is simple: empower people to build better solutions for humanity.
+            Our Goal Is Simple: Empower People To Build Better Solutions For Humanity.
           </div>
         </div>
         
@@ -26,8 +30,8 @@ export const About = () => {
               technology for human good, and sparks new ways of thinking.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Starting from Nigeria and expanding to Kenya and Doha, Spaak is on a 
-              mission to ignite scalable impact through design, tech, and purposeful dialogue.
+              Starting from Nigeria and expanding globally, The Spaak Conference is on a 
+              mission to ignite scalable impact through design, innovation, and purposeful dialogue.
             </p>
           </div>
           

@@ -85,7 +85,7 @@ export const Footer = () => {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-center md:text-left">
-              © 2025 DecisionSpaak Technologies — The Innovators' Innovators
+              © 2025 DecisionSpaak Technologies. The Innovators' Innovators
             </p>
             <div className="text-yellow-400 font-semibold">
               Reinventing Human Possibility

@@ -4,7 +4,6 @@ import { About } from "@/components/About";
 import { FocusAreas } from "@/components/FocusAreas";
 import { Speakers } from "@/components/Speakers";
 import { Partnership } from "@/components/Partnership";
-import { OneShot } from "@/components/OneShot";
 import { Footer } from "@/components/Footer";
 
 const Index = () => {
@@ -15,7 +14,6 @@ const Index = () => {
       <FocusAreas />
       <Speakers />
       <Partnership />
-      <OneShot />
       <Footer />
     </div>
   );

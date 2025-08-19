@@ -14,9 +14,12 @@ export const Speakers = () => {
             Visionaries Wanted. Disruptors Welcomed.
           </p>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            At The Spaak Conference, we don't just speak — we <strong>Spaak</strong>. 
+            At The Spaak Conference, we don't just speak, we <strong>Spaak</strong>. 
+            This isn't your typical tech event. Like TEDx, we bring together impact owners, 
+            entrepreneurs, industry leaders, and solution-builders from diverse sectors including 
+            solar energy, carpentry, business innovation, healthcare, education, and beyond. 
             Expect thought-provoking talks, controversial insights, and practical blueprints 
-            from speakers and doers who challenge the status quo across industries.
+            from speakers who have built massive solutions and challenge the status quo across industries.
           </p>
         </div>
         
@@ -54,10 +57,13 @@ export const Speakers = () => {
           <Button 
             size="lg"
             className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-12 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105"
+            asChild
           >
-            <Mic className="mr-2 h-5 w-5" />
-            Become a Speaker
-            <ArrowRight className="ml-2 h-5 w-5" />
+            <a href="https://www.jotform.com/build/252186860837568?iak=eb2825ca7cd85328fc58545c28256581-57e0eb46c6ad5ad0" target="_blank" rel="noopener noreferrer">
+              <Mic className="mr-2 h-5 w-5" />
+              Become a Speaker
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
           </Button>
         </div>
       </div>

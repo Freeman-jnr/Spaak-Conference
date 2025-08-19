@@ -41,7 +41,7 @@ export const Partnership = () => {
             Align your brand with purpose.
           </p>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-            Spaak is actively seeking partners who believe in the power of ideas and innovation. 
+            The Spaak Conference is actively seeking partners who believe in the power of ideas and innovation. 
             Become part of a conference built on collaboration and execution.
           </p>
         </div>

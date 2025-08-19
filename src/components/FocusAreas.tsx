@@ -34,9 +34,9 @@ export const FocusAreas = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-8">
-            2025 Focus Areas
+            The Spaak 2026 Focus Areas
           </h2>
-          <p className="text-xl text-gray-300 mb-4">The Spaak 2025 Themes:</p>
+          <p className="text-xl text-gray-300 mb-4">The Spaak 2026 Themes:</p>
           <p className="text-lg text-yellow-400 font-semibold">
             These are the sparks that power real-world impact. Choose your spark and join the movement.
           </p>

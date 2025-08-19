@@ -1,20 +1,14 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, Users, Handshake } from "lucide-react";
-
 export const Hero = () => {
   return <section className="relative min-h-screen overflow-hidden">
       {/* Hero Background Image */}
       <div className="absolute inset-0">
-        <img 
-          src="/lovable-uploads/28644522-a1ec-4262-9dc3-3e5078155c0e.png" 
-          alt="Reinventing Human Possibility" 
-          className="w-full h-screen object-cover object-center"
-        />
+        <img src="/lovable-uploads/28644522-a1ec-4262-9dc3-3e5078155c0e.png" alt="Reinventing Human Possibility" className="w-full h-screen object-cover object-center" />
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
       
-      <div className="relative z-10 container mx-auto px-4 text-center text-white flex flex-col items-center justify-center min-h-screen">
+      <div className="relative z-10 container mx-auto text-center text-white flex flex-col items-center justify-center min-h-screen px-0">
         
         {/* Main Headline */}
         <h1 className="text-4xl md:text-7xl font-bold mb-6 animate-fade-in drop-shadow-lg">

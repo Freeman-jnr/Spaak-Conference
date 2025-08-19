@@ -1,9 +1,6 @@
-
 import { Lightbulb, Target, Globe, Zap } from "lucide-react";
-
 export const About = () => {
-  return (
-    <section className="py-20 bg-white">
+  return <section className="bg-white py-[40px]">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-8">
@@ -52,6 +49,5 @@ export const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };

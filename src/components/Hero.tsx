@@ -9,14 +9,9 @@ export const Hero = () => {
         <img 
           src="/lovable-uploads/28644522-a1ec-4262-9dc3-3e5078155c0e.png" 
           alt="Reinventing Human Possibility" 
-          className="w-full h-full object-cover"
+          className="w-full h-screen object-cover object-center"
         />
         <div className="absolute inset-0 bg-black/40"></div>
-      </div>
-      
-      {/* Logo in top-left corner */}
-      <div className="absolute top-8 left-8 z-20">
-        <img src="/lovable-uploads/e5cbdde7-56ba-4821-bc22-e52b6cf8a77b.png" alt="The Spaak Conference" className="h-20 md:h-24 filter brightness-110 contrast-125 animate-fade-in drop-shadow-lg" />
       </div>
       
       <div className="relative z-10 container mx-auto px-4 text-center text-white flex flex-col items-center justify-center min-h-screen">

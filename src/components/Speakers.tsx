@@ -16,8 +16,7 @@ export const Speakers = () => {
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             At The Spaak Conference, we don't just speak, we <strong>Spaak</strong>. 
             We bring together impact owners, entrepreneurs, industry leaders, and solution-builders 
-            from diverse sectors including solar energy, carpentry, business innovation, healthcare, 
-            education, and beyond. Expect thought-provoking talks, controversial insights, and practical 
+            from diverse sectors. Expect thought-provoking talks, controversial insights, and practical 
             blueprints from speakers who have built massive solutions and challenge the status quo across industries.
           </p>
         </div>

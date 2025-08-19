@@ -12,9 +12,7 @@ export const About = () => {
           <p className="text-xl text-gray-700 leading-relaxed mb-8">
             The Spaak Conference is more than a gathering, it's a <strong>movement</strong> of 
             bold minds committed to redefining what's possible. We bring together impact owners, entrepreneurs, 
-            industry leaders, and solution-builders from diverse fields including solar energy, 
-            carpentry, business innovation, and beyond. It's designed for people who have built 
-            massive solutions across various sectors, focusing on sharing fresh ideas and creating awareness.
+            industry leaders, and solution-builders from diverse fields.
           </p>
           <div className="bg-yellow-400 text-black p-6 rounded-2xl font-bold text-xl mb-12">
             Our Goal Is Simple: Empower People To Build Better Solutions For Humanity.

@@ -69,13 +69,13 @@ export const Footer = () => {
                 <span>Instagram</span>
               </a>
               <a 
-                href="http://x.com/decisionspaak" 
+                href="https://x.com/decisionspaak" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors duration-300"
               >
                 <Twitter className="h-5 w-5" />
-                <span>Twitter</span>
+                <span>X</span>
               </a>
               <a 
                 href="https://www.linkedin.com/company/decisionspaak/posts/?feedView=all" 

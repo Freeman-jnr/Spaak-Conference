@@ -1,5 +1,5 @@
 
-import { Brain, Building, Network, Smartphone } from "lucide-react";
+import { Brain, Building, Network, Smartphone, Target } from "lucide-react";
 
 export const FocusAreas = () => {
   const focusAreas = [
@@ -26,6 +26,12 @@ export const FocusAreas = () => {
       title: "Tech for Everyday Life",
       description: "Making technology more usable and humane.",
       color: "from-yellow-500 to-orange-500"
+    },
+    {
+      icon: Target,
+      title: "Purpose & Positioning",
+      description: "Discovering self, creating impact.",
+      color: "from-purple-500 to-pink-600"
     }
   ];
 
@@ -36,7 +42,6 @@ export const FocusAreas = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-8">
             The Spaak 2026 Focus Areas
           </h2>
-          <p className="text-xl text-gray-300 mb-4">The Spaak 2026 Themes:</p>
           <p className="text-lg text-yellow-400 font-semibold">
             These are the sparks that power real-world impact. Choose your spark and join the movement.
           </p>

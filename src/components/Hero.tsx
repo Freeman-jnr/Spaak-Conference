@@ -17,7 +17,7 @@ export const Hero = () => {
         </h1>
         
         {/* Subheading */}
-        <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed animate-fade-in">
+        <p className="text-xl md:text-2xl text-white mb-8 max-w-4xl mx-auto leading-relaxed animate-fade-in">
           The Spaak Conference 2026 is where bold ideas meet radical execution. 
           Join a community of innovators, builders, and thinkers creating human-centered 
           solutions that shift culture and reshape the future.

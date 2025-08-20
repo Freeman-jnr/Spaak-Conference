@@ -36,7 +36,7 @@ export const About = () => {
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-xl hover:bg-yellow-50 transition-colors duration-300">
               <Target className="h-12 w-12 text-yellow-500 mx-auto mb-4" />
-              <h3 className="font-bold text-gray-900">Redesigns Tech</h3>
+              <h3 className="font-bold text-gray-900">Redesign Tech</h3>
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-xl hover:bg-yellow-50 transition-colors duration-300">
               <Zap className="h-12 w-12 text-yellow-500 mx-auto mb-4" />

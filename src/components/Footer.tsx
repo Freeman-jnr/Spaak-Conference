@@ -43,6 +43,9 @@ export const Footer = () => {
                 <Mail className="h-5 w-5 text-yellow-400" />
                 <span className="text-gray-300">TSC@decisionspaak.com</span>
               </div>
+              <div className="text-gray-300">
+                Convener: <a href="https://decisionspaak.com/" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-300 transition-colors duration-300">https://decisionspaak.com/</a>
+              </div>
             </div>
           </div>
           

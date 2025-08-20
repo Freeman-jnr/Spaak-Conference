@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Mail, Instagram, Twitter, Linkedin, ArrowRight } from "lucide-react";
+import { Mail, Instagram, Twitter, Linkedin, ArrowRight, Globe } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -43,9 +43,15 @@ export const Footer = () => {
                 <Mail className="h-5 w-5 text-yellow-400" />
                 <span className="text-gray-300">TSC@decisionspaak.com</span>
               </div>
-              <div className="text-gray-300">
-                Convener: <a href="https://decisionspaak.com/" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-300 transition-colors duration-300">https://decisionspaak.com/</a>
-              </div>
+              <a 
+                href="https://decisionspaak.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors duration-300"
+              >
+                <Globe className="h-5 w-5 text-yellow-400" />
+                <span>Convener</span>
+              </a>
             </div>
           </div>
           

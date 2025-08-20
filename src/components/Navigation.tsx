@@ -16,8 +16,8 @@ export const Navigation = () => {
     return () => window.removeEventListener('scroll', controlNavbar);
   }, [lastScrollY]);
   return <nav className={`fixed top-0 left-0 right-0 z-50 bg-white shadow-md transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <img src="/lovable-uploads/e5cbdde7-56ba-4821-bc22-e52b6cf8a77b.png" alt="The Spaak Conference" className="h-12 md:h-16 font-bold" style={{filter: 'hue-rotate(45deg) saturate(2) brightness(0.8)'}} />
+      <div className="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
+        <img src="/lovable-uploads/d7ed956c-d7e2-42e1-88d3-782a3998ef8e.png" alt="The Spaak Conference" className="h-12 md:h-16 font-bold" />
         
         <div className="flex gap-4">
           <button className="text-[#F2C230] font-bold hover:text-yellow-600 transition-colors duration-300">

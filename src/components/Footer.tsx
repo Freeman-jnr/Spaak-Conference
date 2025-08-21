@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Mail, Instagram, X, Linkedin, ArrowRight, Globe } from "lucide-react";
+import { Mail, Instagram, Linkedin, ArrowRight, Globe } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -74,7 +74,11 @@ export const Footer = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors duration-300"
               >
-                <X className="h-5 w-5" />
+                <img 
+                  src="/lovable-uploads/7d5c2c4e-3a7a-454d-9428-b7e7b908cbef.png" 
+                  alt="X Logo" 
+                  className="h-5 w-5" 
+                />
                 <span>twitter</span>
               </a>
               <a 

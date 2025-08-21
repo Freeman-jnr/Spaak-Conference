@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Mail, Instagram, Twitter, Linkedin, ArrowRight, Globe } from "lucide-react";
+import { Mail, Instagram, X, Linkedin, ArrowRight, Globe } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -74,8 +74,8 @@ export const Footer = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors duration-300"
               >
-                <Twitter className="h-5 w-5" />
-                <span>X</span>
+                <X className="h-5 w-5" />
+                <span>twitter</span>
               </a>
               <a 
                 href="https://www.linkedin.com/company/decisionspaak/posts/?feedView=all" 

@@ -18,7 +18,7 @@ export const Navigation = () => {
   return <nav className={`fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
       <div className="max-w-6xl mx-auto h-16 px-6 flex justify-between items-center">
         <img 
-          src="/lovable-uploads/d7ed956c-d7e2-42e1-88d3-782a3998ef8e.png" 
+          src="/lovable-uploads/947fb705-f03c-49be-b003-c712719e6781.png" 
           alt="The Spaak Conference" 
           className="h-[50px] w-auto" 
         />

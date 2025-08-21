@@ -12,7 +12,7 @@ export const Footer = () => {
           <div className="lg:col-span-2">
             <div className="mb-6">
               <img 
-                src="/lovable-uploads/a263f3f6-8960-4590-ad49-25165c6a1e3f.png" 
+                src="/lovable-uploads/947fb705-f03c-49be-b003-c712719e6781.png" 
                 alt="Spaak Logo" 
                 className="h-16 mb-4"
               />

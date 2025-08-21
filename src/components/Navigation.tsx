@@ -20,7 +20,7 @@ export const Navigation = () => {
         <img 
           src="/lovable-uploads/d7ed956c-d7e2-42e1-88d3-782a3998ef8e.png" 
           alt="The Spaak Conference" 
-          className="h-8 w-auto" 
+          className="h-[50px] w-auto" 
         />
         
         <div className="flex items-center gap-8">

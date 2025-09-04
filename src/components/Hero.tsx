@@ -32,15 +32,17 @@ export const Hero = () => {
           </Button>
           
           <Button size="lg" className="bg-white hover:bg-yellow-400 text-black font-bold px-10 py-5 text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-2xl flex-1 sm:flex-none min-w-[200px]" asChild>
-            <a href="https://www.jotform.com/build/252186860837568?iak=eb2825ca7cd85328fc58545c28256581-57e0eb46c6ad5ad0" target="_blank" rel="noopener noreferrer">
+            <a href="https://form.jotform.com/252393161626558" target="_blank" rel="noopener noreferrer">
               <Users className="mr-2 h-5 w-5 text-black" />
               Become a Speaker
             </a>
           </Button>
           
-          <Button size="lg" className="bg-white hover:bg-yellow-400 text-black font-bold px-10 py-5 text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-2xl flex-1 sm:flex-none min-w-[200px]">
-            <Handshake className="mr-2 h-5 w-5 text-black" />
-            Partner With Us
+          <Button size="lg" className="bg-white hover:bg-yellow-400 text-black font-bold px-10 py-5 text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-2xl flex-1 sm:flex-none min-w-[200px]" asChild>
+            <a href="https://form.jotform.com/Spaak/partnership" target="_blank" rel="noopener noreferrer">
+              <Handshake className="mr-2 h-5 w-5 text-black" />
+              Partner With Us
+            </a>
           </Button>
         </div>
         

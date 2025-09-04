@@ -65,9 +65,12 @@ export const Partnership = () => {
           <Button 
             size="lg"
             className="bg-black hover:bg-gray-800 text-white font-bold px-12 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105"
+            asChild
           >
-            Partner With Us
-            <ArrowRight className="ml-2 h-5 w-5" />
+            <a href="https://form.jotform.com/Spaak/partnership" target="_blank" rel="noopener noreferrer">
+              Partner With Us
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
           </Button>
         </div>
       </div>

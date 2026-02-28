@@ -52,7 +52,6 @@ export const Navigation = () => {
           >
             Partner
           </button>
-
           <a
             href="https://decisionspaak.com/"
             target="_blank"

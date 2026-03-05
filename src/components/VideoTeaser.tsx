@@ -66,7 +66,7 @@ export const VideoTeaser = () => {
               playsInline
               preload="auto"
             >
-              <source src="/public/videos/Spaak Conference Teaser.mp4" type="video/mp4" />
+              <source src="/videos/Spaak Conference Teaser.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </motion.div>

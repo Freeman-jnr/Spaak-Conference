@@ -30,14 +30,14 @@ export const VideoTeaser = () => {
             <h2 className="text-3xl md:text-4xl font-bold leading-tight mb-6">
               Where Africa's Future Takes Shape
             </h2>
-            <p className="text-base md:text-lg text-white/80 leading-relaxed mb-6">
+            <p className="text-base md:text-lg text-white/80 leading-relaxed mb-6 v-text">
               The Spaak Conference brings together policymakers, thought leaders, 
               and innovators to address the continent's most pressing challenges. 
               From governance and economic transformation to technology and 
               sustainable development — this is where actionable ideas meet 
               real-world impact.
             </p>
-            <p className="text-base md:text-lg text-white/80 leading-relaxed mb-8">
+            <p className="text-base md:text-lg text-white/80 leading-relaxed mb-8 v-text">
               Join a curated gathering designed to spark dialogue, forge 
               partnerships, and chart a bold path forward for Africa and beyond.
             </p>

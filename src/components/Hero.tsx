@@ -121,7 +121,7 @@ export const Hero = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             <FeatureCard
-              href="https://form.jotform.com/decisionspaak/thespaakconference2026registration"
+              href="https://luma.com/ped6p5qz"
               title="Register Now"
               description="Secure your seat at The Spaak Conference on April 4, 2026."
               icon={

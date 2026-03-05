@@ -100,7 +100,7 @@ export const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-500 text-sm text-center md:text-left">
               © 2026 DecisionSpaak Group. The Innovators' Innovators ·{" "}
-              <span className="text-yellow-400 font-semibold">April 4, 2026</span>
+              <span className="text-yellow-400 font-semibold">May 9, 2026</span>
             </p>
             <p className="text-yellow-400 font-semibold text-sm">
               Reinventing Human Possibility

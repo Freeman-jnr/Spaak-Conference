@@ -71,7 +71,7 @@ export const Speakers = () => {
           <h3 className="text-3xl md:text-4xl font-bold mb-5">Young Spaakers</h3>
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto leading-relaxed">
             We're spotlighting youth under 25 solving real-world problems. Got a bold idea?
-            Submit to be featured at the April 4, 2026 conference!
+            Submit to be featured at the May 9, 2026 conference!
           </p>
           <Button
             size="lg"

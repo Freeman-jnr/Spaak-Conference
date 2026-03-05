@@ -113,7 +113,7 @@ export const Navigation = () => {
             Contact
           </button>
           <a
-            href="https://form.jotform.com/decisionspaak/thespaakconference2026registration"
+            href="https://luma.com/ped6p5qz"
             target="_blank"
             rel="noopener noreferrer"
             onClick={closeMobile}

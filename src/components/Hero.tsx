@@ -123,7 +123,7 @@ export const Hero = () => {
             <FeatureCard
               href="https://luma.com/ped6p5qz"
               title="Register Now"
-              description="Secure your seat at The Spaak Conference on April 4, 2026."
+              description="Secure your seat at The Spaak Conference on May 9, 2026."
               icon={
                 <Calendar
                   className="h-7 w-7"
